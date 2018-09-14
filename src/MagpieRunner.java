@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
 /**
- * A simple class to run the Magpip class.
+ * A simple class to run the Magpie class.
  * @author Laurie White
  * @version April 2012
  */
-public class MagpipRunner
+public class MagpieRunner
 {
-	
+
 	/**
-	 * Create a Magpip, give it user input, and print its replies.
+	 * Create a Magpie, give it user input, and print its replies.
 	 */
 	public static void main(String[] args)
 	{
-		Magpip maggie = new Magpip();
+		Magpie maggie = new Magpie();
 		
 		System.out.println (maggie.getGreeting());
 		Scanner in = new Scanner (System.in);
@@ -25,5 +25,5 @@ public class MagpipRunner
 			statement = in.nextLine();
 		}
 	}
-	
+
 }

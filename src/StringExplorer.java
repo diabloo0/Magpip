@@ -25,5 +25,14 @@ public class StringExplorer
 		System.out.println ("After toupperCase(), sample = " + sample);
 		
 		System.out.println(sample.length());
+		
+		String example1 = "U";
+		String example2 = "p";
+		System.out.println(example1.compareTo(example2));
+	
+		//experiment with substring
+		String starter= "start middle end";
+		int psn1=starter.indexOf("middle");
+		System.out.print(starter.substring(psn1,psn1+7));
 	}
 }
